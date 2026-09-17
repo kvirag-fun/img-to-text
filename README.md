@@ -22,23 +22,34 @@ web app.
    correct for monospace glyphs being taller than they are wide.
 
 The result is a `.txt` file where the character density visually reconstructs the image — here's a
-genuine run of this exact algorithm against `pikachu.png` (one of the sample images in this repo),
-kept small so it's actually readable on a phone screen; a real conversion at the app's default
-105px resolution is much denser:
+genuine run of this exact algorithm against the "Rocket Monkey" logo (the author's own mark, also
+used in [sudoku-game](https://github.com/kvirag-fun/sudoku-game) and
+[color-spy](https://github.com/kvirag-fun/color-spy)), shrunk down from the app's default 105px
+resolution so it fits in a README:
+
+<img src="docs/screenshots/rocket-monkey-logo.png" alt="The original Rocket Monkey logo" width="200" />
 
 ```
-!!22pp````````````````````````**
-^^ZZbbAA$$``````````````AAbb33**
-!!PPqqqqAAbb88$$$$88GGUUAApphh;;
-``qqAAUUUUGGGGGGGGGGGGbbUUqq22``
-````AAAAAAUUUUAAAAUUAAGGAAAABB``
-``````GGUUmmAAGGGGGGmmbbGG``````
-````UUbb44yyUUAAAAeewwbbAAGG````
-````EEAA$$PP5533UUPP$$mmbbGG````
-``NNhhuummUUXXhhEEUUZZssXXUU````
-``BBmm$$GGUU22oo55AA$$hhEEAAAA``
-````AAUUAAGGGGmmEEGGAAUUAAGGGG``
-````ddGGAAGGAAAAAAGGGGGGGGAAGG``
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+NNNNNNNNNNNNNNNNNNNNNNNNNNNN@@QQQQ88NNNN
+NNNNNNNNNNNNNNNN@@NNNNQQ44bbII((//\\bbNN
+NNNNNNNNNNNN66nnii11KKJJCC{{>>TTcc77ssee
+NNNNNNNNNNQQttjjoo))JJllFFzzuuAAEEEEeezz
+NNNNNNNNNN99))11GG//\\iiYYvvJJ??00JJzzYY
+NNNNNNNNNNMM2211{{xx22aaii\\JJCCPPooLL]]
+NNNNNNNNNNNNNNFFtt3333hhII>>mm884466mmYY
+NNNNWWppoooo11LLhhhh{{ttwwJJ22KK%%ZZIIPP
+NNNN55yybbqq{{//hhIIiillCCaaJJzznnFF99NN
+NNBBQQ00RR8822""[[eessYY%%ZZIIYYNNNNNNNN
+ggDD$$559900RRFF||LLXXaaaaVV{{00NNNNNNNN
+QQHHyymm00RRRRDDii||ff{{22uu11NNNNNNNNNN
+QQhhFF00RREE&&QQGGffPP((JJYYnnNNNNNNNNNN
+SSnnAAXXVV22EEddGGddNNzzCCffHHNNNNNNNNNN
+llLLffyyXX4466yyHHNN@@IIIIOONNNNNNNNNNNN
+11nnUURR00QQ00HHBBNNNNNNNNNNNNNNNNNNNNNN
+bbgg88BBggMMMMNNNNNNNNNNNNNNNNNNNNNNNNNN
+@@NNNNNN@@NNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN@@DD
 ```
 
 ## Workflow

@@ -27,21 +27,15 @@ kept small so it's actually readable on a phone screen; a real conversion at the
 105px resolution is much denser:
 
 ```
-""ffdd``````````````````````````````````
-::11qqAAGG``````````````````````ddKKYY;;
-``IIqqbbUUAA````````````````GGAAAAbbnn::
-``GGUUAAAAUUAAbbUUGGGGAAUUAAAAbbUUbbxx``
-````GGbbAAGGGGGGAAGGGGGGGGbbAAGGbbEEzz``
-````88AAAAGGAAAAAAAAAAAAAAGGEEAAAAAA````
-``````EEGGAAAAAAGGGGGGGGAAAAAAGGGG``````
-``````GGAAUU%%mmAAGGGGUUeePPUUAAUU``````
-``````AAqqXX}}mmAAGGAAPPffPPAAbbAA``````
-````qqEEEEGGEEUUkk33AAGGEEGG$$bbGG``````
-````qqww11mmAAAAXXXXGGGGAAoossZZUUAA````
-````UU55eeEEAAEEssooXXAAAA%%nnXXbbAA````
-````AAUUUUGGGGGG4433SSAAGGAAAAAAbbGG````
-``````AAUUGGGGGGAAAAAAGGGGGGGGGGbbAA````
-``````GGGGAAGGGGGGGGGGGGGGGGGGGGUUAA88``
+==$$EE``````````````AA//
+LLAAUUUU````````GGUUEEll
+NNGGppGGGGGGAAGGGGddPPll
+``EEGGbbbbbbbbqqUUAAAA``
+````UUSSSSUUGG33UUAA````
+``mmEEXXSSXXGGZZmmGGEE``
+``SS22EE$$22EEEEnnSSqq``
+``AAGGAAmm33$$AA$$bbAA``
+``88GGUUAAAAAAGGAAbbGG``
 ```
 
 ## Workflow

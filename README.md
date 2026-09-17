@@ -21,23 +21,28 @@ web app.
    character from the sorted ramp. Every character is written twice, side by side, to roughly
    correct for monospace glyphs being taller than they are wide.
 
-The result is a `.txt` file where the character density visually reconstructs the image:
+The result is a `.txt` file where the character density visually reconstructs the image — here's a
+genuine run of this exact algorithm against `pikachu.png` (one of the sample images in this repo),
+kept small so it's actually readable on a phone screen; a real conversion at the app's default
+105px resolution is much denser:
 
 ```
-^^^^^^))````````````````````````````````````````````````````````````````````````````````````````````
-^^^^;;vvqqbbdd``````````````````````````````````````````````````````````````````````````````````````
-^^^^""]]ppAAUUAAbb``````````````````````````````````````````````````````````````````````````````!!!!
-**^^""[[UUGGUUUUUUUU``````````````````````````````````````````````````````````````````````66vv;;^^^^
-``^^""[[UUGGGGGGUUUUUUbb````````````````````````````````````````````````````````````qqUUAAqqss""^^!!
-````~~]]UUGGGGGGGGGGbbUUUU22``````````````````````````````````````````````````qqUUAAAAbbUUqqTT~~^^^^
-````--ttUUGGGGGGGGGGGGAAbbUUUU````````````````````````````````````````````UUUUAAbbUUAAGGGGbbxx""^^``
-``````IIbbGGGGGGGGGGGGGGGGbbUUAA````````````````````````````````````WWbbUUAAbbAAGGGGGGGGGGAAii""!!``
-``````WWAAbbGGGGGGGGGGGGGGGGbbUUbb``````````````````````````````88UUAAUUbbAAGGGGGGGGGGGGAASS||;;````
-````````bbAAUUGGGGGGGGGGGGGGGGUUUUUUbbbbbbUUUUGGAAAAAAUUUUbbUUAAAAUUUUGGGGGGGGGGGGGGGGGGbbFF~~;;````
-``````````UUAAAAGGGGGGGGGGGGGGGGUUGGAAAAUUbbbbbbbbbbbbbbbbAAAAGGbbGGGGGGGGGGGGGGGGGGGGAAAAvv````````
+""ffdd``````````````````````````````````
+::11qqAAGG``````````````````````ddKKYY;;
+``IIqqbbUUAA````````````````GGAAAAbbnn::
+``GGUUAAAAUUAAbbUUGGGGAAUUAAAAbbUUbbxx``
+````GGbbAAGGGGGGAAGGGGGGGGbbAAGGbbEEzz``
+````88AAAAGGAAAAAAAAAAAAAAGGEEAAAAAA````
+``````EEGGAAAAAAGGGGGGGGAAAAAAGGGG``````
+``````GGAAUU%%mmAAGGGGUUeePPUUAAUU``````
+``````AAqqXX}}mmAAGGAAPPffPPAAbbAA``````
+````qqEEEEGGEEUUkk33AAGGEEGG$$bbGG``````
+````qqww11mmAAAAXXXXGGGGAAoossZZUUAA````
+````UU55eeEEAAEEssooXXAAAA%%nnXXbbAA````
+````AAUUUUGGGGGG4433SSAAGGAAAAAAbbGG````
+``````AAUUGGGGGGAAAAAAGGGGGGGGGGbbAA````
+``````GGGGAAGGGGGGGGGGGGGGGGGGGGUUAA88``
 ```
-
-*(a genuine run of this exact algorithm against `pikachu.png`, one of the sample images in this repo)*
 
 ## Workflow
 
